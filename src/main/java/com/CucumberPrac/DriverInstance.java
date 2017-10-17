@@ -21,8 +21,8 @@ public class DriverInstance {
     public void openBrowser() {
         ResourceBundle config = ResourceBundle.getBundle("config");
         if (config.getString("browser").equalsIgnoreCase("Firefox")) {
-            System.setProperty("webdriver.gecko.driver", "src\\Drivers\\geckodriver.exe");
-            driver = new FirefoxDriver();
+                System.setProperty("webdriver.gecko.driver", "src\\Drivers\\geckodriver.exe");
+                driver = new FirefoxDriver();
         } else if (config.getString("browser").equalsIgnoreCase("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/Drivers/chromedriver.exe");
             driver = new ChromeDriver();

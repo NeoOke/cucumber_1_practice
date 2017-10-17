@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.005495">
-<testcase classname="As a user of Google Keep app, I want to login to the application" name="" time="50.005495">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.996471">
+<testcase classname="As a user of Google Keep app, I want to login to the application" name="" time="18.996471">
 <system-out><![CDATA[Given I navigate to the Landing page........................................passed
 When I enter my "username" and "password"...................................passed
 And I click on the login button.............................................passed

@@ -24,7 +24,7 @@ public class loginTest extends DriverInstance{
     @When("^I enter my \"([^\"]*)\" and \"([^\"]*)\"$")
     public void i_enter_my_and(String arg1, String arg2) throws Throwable {
 
-        lp.doLogin("olu.adesote@gmail.com", "angel2010");
+        lp.doLogin("muyi.accuity@gmail.com", "Accuity123");
     }
 
     @When("^I click on the login button$")
